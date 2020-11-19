@@ -23,6 +23,7 @@ public @interface GuardedBy {
      * GuardedBy("Class Name.fieldName")：类似于GuardedBy("fieldName")，但指向在另一个类的静态域中持有的对象
      * GuardedBy("methodName()")：指通过调用命名方法返回的锁对象
      * GuardedBy("ClassName.class")：指命名类的类字面量对象
+     
      * @return
      */
      String value();
