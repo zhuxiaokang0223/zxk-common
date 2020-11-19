@@ -1,0 +1,6 @@
+@Target({ElementType.FIELD, ElementType.METHOD})
+@Retention(RetentionPolicy.SOURCE)
+@Documented
+public @interface TestAnnotation {
+
+}
